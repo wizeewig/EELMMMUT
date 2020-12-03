@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+	<link rel="icon" href="./images/favicon.jpg" type="image/jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+    <title>EEL Event Registration</title>
+
+    
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+   
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+   
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">EEL <br>Event Registration Form</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/data" method="POST">
+                        <div class="form-row m-b-55">
+                            <div class="name">Name*</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group">
+                                            <input class="input--style-5" type="text" name="first_name" required>
+                                            <label class="label--desc">Full name</label>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+						<div class="form-row">
+                            <div class="name">Roll No.*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="tel" name="rollno" required="" min="0" max="9">
+									<label class="label--desc">Should be a number</label>
+                                </div>
+                            </div>
+                        </div>
+						 <div class="form-row">
+                            <div class="name">Email*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Course*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="course" required>
+                                </div>
+                            </div>
+                        </div>
+						<div class="form-row">
+                            <div class="name">Branch*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="branch" required>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="form-row">
+                            <div class="name">Institution*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="institution" required>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="form-row m-b-55">
+                            <div class="name">Contact No.*</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                   
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="tel" name="phone" required="" pattern="[0-9]{10}" >
+											<label class="label--desc">10 digit number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Registration for*</div>
+                            <div class="value">
+                                <div class="row row-refine">
+									<div class="col-md-6">
+									
+										<input type="checkbox" name="event1" value="Labyrinth">
+										<label for="Labyrinth" class="checkboxes"> Labyrinth</label><br>
+										
+										<input type="checkbox" name="event2" value="Tesla">
+										<label for="Tesla" class="checkboxes"> Tesla</label><br>
+										
+										<input type="checkbox" name="event3" value="Incognito">
+										<label for="Incognito" class="checkboxes"> Incognito</label><br>
+
+										<input type="checkbox" name="event4" value="Oracle">
+										<label for="Oracle" class="checkboxes"> Oracle</label><br>
+
+										<input type="checkbox" name="event5" value="Admad">
+										<label for="Admad" class="checkboxes"> Admad</label><br>
+
+										<input type="checkbox" name="event6" value="Chronicler">
+										<label for="Chronicler" class="checkboxes"> Chronicler</label><br>
+
+										<input type="checkbox" name="event7" value="Circuitous">
+										<label for="Circuitous" class="checkboxes"> Circuitous</label><br>	
+
+										<input type="checkbox" name="event8" value="KYC">
+										<label for="KYC" class="checkboxes"> KYC</label><br>
+
+										<input type="checkbox" name="event9" value="Symposium">
+										<label for="Symposium" class="checkboxes"> Symposium</label><br>	
+
+										<input type="checkbox" name="event0" value="Lantastic">
+										<label for="Lantastic" class="checkboxes"s> Lantastic</label><br>								
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+						 <div class="form-row">
+                            <div class="name">MMMUT/Non-MMMUT Student*</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="subject">
+                                            <option disabled="disabled" selected="selected">Choose option</option>
+                                            <option>Hosteller</option>
+                                            <option>Day Schollor</option>
+                                            <option>Non-MMMUT Student</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+							 <div class="form-row m-b-55">
+                            <div class="name">Hostel</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="hostel">
+                                            <label class="label--desc">Hostel Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="room">
+                                            <label class="label--desc">Room No.</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" type="submit">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="vendor/jquery/jquery.min.js"></script>
+ 
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>
