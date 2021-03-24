@@ -187,8 +187,8 @@ width: 100%;
 
 	justify-content:left;
 	align-items:center;
-	display:flex;
-	object-fit: cover;
+	
+	
 }
 	
 .night {
@@ -196,7 +196,7 @@ width: 100%;
   
   display: flex;
   
-  
+  object-fit: cover;
   transform: rotateZ(45deg);
 }
 
