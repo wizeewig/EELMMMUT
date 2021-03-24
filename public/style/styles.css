@@ -98,12 +98,12 @@ body{
 }
 
 @font-face {
-  font-family: blade;
-  src: url(blade2.ttf);
+  font-family: Blade;
+  src: url('./blade2.ttf');
 }
 
 .bladeFont{
-	font-family: 'blade';
+	font-family:Blade;
 	color:#1086e8;
 	font-size:50vw;
 	transform:translate(0px,-50px);
@@ -178,6 +178,7 @@ border-color: white;
 color: white;
 text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px red;
 }
+
 .base{
 height: 100%;
 width: 100%;
@@ -187,24 +188,16 @@ width: 100%;
 	justify-content:left;
 	align-items:center;
 	display:flex;
+	object-fit: cover;
 }
 	
-.about{
-	height: 100%;
-	width: 100%;
-
-  background-color: black;
-
-	justify-content:left;
-	align-items:center;
-	display:flex;
-}
-
-
 .night {
-
   position: absolute;
- transform: rotateZ(45deg);
+  
+  display: flex;
+  
+  
+  transform: rotateZ(45deg);
 }
 
 .shooting_star {
@@ -497,7 +490,7 @@ width: 100%;
     transform: translateX(0);
   }
   100% {
-    transform: translateX(300px);
+    transform: translateX(400px);
   }
 }
 @keyframes shooting {
@@ -505,7 +498,7 @@ width: 100%;
     transform: translateX(0);
   }
   100% {
-    transform: translateX(300px);
+    transform: translateX(400px);
   }
 }
 @-webkit-keyframes sky {
@@ -611,13 +604,10 @@ width: 100%;
 .ourHeads{
 min-height: 100%;
 	height:auto;
-<!--background-image:linear-gradient(to right,#B91372, #6B0F1A);	-->
-background-image:linear-gradient(to right,#000000, #000000);
-<!-- blue1 background-image:linear-gradient(to right,#1A1A50, #000000);	-->
-<!--
-color: black;
-background-color: black;-->
-
+<!--background-image:linear-gradient(to right,#B91372, #6B0F1A);-->
+color:black;
+background-color: black;
+	
 	width:100%;	
 	justify-content:left;
 	align-items:center;
@@ -625,16 +615,6 @@ background-color: black;-->
 
 
 }
-
-.app{
-box-sizing: border-box;
-overflow: hidden;
-display:flex;
-object-fit: cover;
-
-}
-
-
 
 @font-face {
   font-family: Afterglow;
