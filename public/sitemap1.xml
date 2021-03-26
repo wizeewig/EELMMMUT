@@ -2,7 +2,7 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
   <loc>https://eelmmmut.ml/events</loc>
-  <priority>0.8</priority>
+  <priority>0.9</priority>
   
 </url>
 <url>
@@ -17,6 +17,11 @@
 </url>
 <url>
   <loc>https://eelmmmut.ml/teams</loc>
+  <priority>0.9</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://eelmmmut.ml/eelfamily</loc>
   <priority>0.9</priority>
   <changefreq>yearly</changefreq>
 </url>

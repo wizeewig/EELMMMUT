@@ -27,6 +27,9 @@ app.get('/',(req,res)=>{
 app.get('/teams', (req,res)=>{
 	res.sendFile(__dirname + '/public/teams.html');
 });
+app.get('/eelfamily', (req,res)=>{
+	res.sendFile(__dirname + '/public/eelfamily.html');
+});
 
 app.get('/register',(req,res)=>{
 	res.sendFile(__dirname+'/public/registration.html');
