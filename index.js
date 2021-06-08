@@ -23,7 +23,7 @@ mongoose.connection.on('connected',connected=>{
 app.get('/',(req,res)=>{
 	res.sendFile();
 });
-});
+
 app.get('/tesla', (req,res)=>{
 	res.sendFile("http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/");
 });
