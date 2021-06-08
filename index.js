@@ -26,7 +26,7 @@ app.get('/',(req,res)=>{
 
 app.get('/tesla', (req, res) => {
 
-    redirect("http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/")
+    res.redirect("http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/")
 
 })
 app.get('/teams', (req,res)=>{
