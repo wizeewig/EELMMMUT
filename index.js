@@ -24,9 +24,11 @@ app.get('/',(req,res)=>{
 	res.sendFile();
 });
 
-app.get('/tesla', (req,res)=>{
-	res.sendFile(<a href="http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/" target="_blank">);
-});
+app.get("/tesla", (req, res) => {
+
+    redirect("http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/")
+
+})
 app.get('/teams', (req,res)=>{
 	res.sendFile(__dirname + '/public/teams.html');
 });
