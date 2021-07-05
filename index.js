@@ -24,9 +24,9 @@ app.get('/',(req,res)=>{
 	res.sendFile();
 });
 
-app.get('/tesla', (req, res) => {
+app.get('/induction', (req, res) => {
 
-    res.redirect("http://ec2-18-223-138-216.us-east-2.compute.amazonaws.com/")
+    res.redirect("http://forms.gle/ZbKAwscdmTr2YGhE6")
 
 })
 app.get('/teams', (req,res)=>{
