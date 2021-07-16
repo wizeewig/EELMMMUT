@@ -24,11 +24,7 @@ app.get('/',(req,res)=>{
 	res.sendFile();
 });
 
-app.get('/induction', (req, res) => {
 
-    res.redirect("http://forms.gle/ZbKAwscdmTr2YGhE6")
-
-})
 app.get('/teams', (req,res)=>{
 	res.sendFile(__dirname + '/public/teams.html');
 });
@@ -46,6 +42,9 @@ app.get('/events',(req,res)=>{
 
 app.get('/gallery',(req,res)=>{
 	res.sendFile(__dirname+'/public/gallery.html');
+});
+app.get('/developers',(req,res)=>{
+	res.sendFile(__dirname+'/public/developers.html');
 });
 
 app.post('/data',(req,res)=>{
