@@ -35,7 +35,7 @@ app.get('/eelfamily', (req,res)=>{
 app.get('/register',(req,res)=>{
 	res.sendFile(__dirname+'/public/registration.html');
 });
-app.get('/sitemap',(req,res)=>{
+app.get('/sitemap1',(req,res)=>{
 	res.sendFile(__dirname+'/public/sitemap1.xml');
 });
 app.get('/events',(req,res)=>{
