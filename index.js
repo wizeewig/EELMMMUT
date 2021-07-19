@@ -36,7 +36,7 @@ app.get('/register',(req,res)=>{
 	res.sendFile(__dirname+'/public/registration.html');
 });
 app.get('/sitemap1',(req,res)=>{
-	res.sendFile(__dirname+'/public/sitemap1.xml');
+	res.sendFile(__dirname+'/public/sitemap2.xml');
 });
 app.get('/events',(req,res)=>{
 	res.sendFile(__dirname+'/public/event/event.html');
