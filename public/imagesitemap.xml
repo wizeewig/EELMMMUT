@@ -6,15 +6,15 @@
         <loc>http://eelweb.herokuapp.com/developers</loc>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/FaheemAhmed.jpg</image:loc>
-						<priority>1.0</priority>
+						<image:title>Faheem Ahmed</image:title>
         </image:image>  
 		<image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/Mihir.jpg</image:loc>
-			<priority>1.0</priority>
+						<image:title>Mihir Srivastav</image:title>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/YashKumar.jpg</image:loc>
-						<priority>1.0</priority>
+						<image:title>Yash Kumar</image:title>
         </image:image>
         
     </url>
@@ -40,14 +40,14 @@
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/Mihir.jpg</image:loc>
-			<priority>1.0</priority>
+						<image:title>Mihir Srivastava</image:title>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/MayankSrivastav.jpg</image:loc>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/YashKumar.jpg</image:loc>
-						<priority>1.0</priority>
+						<image:title>Yash Kumar</image:title>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/samriddhi.jpg</image:loc>
@@ -57,7 +57,7 @@
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/FaheemAhmed.jpg</image:loc>
-						<priority>1.0</priority>
+						<image:title>Faheem Ahmed</image:title>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/photos/PrabhatPatel.jpg</image:loc>
