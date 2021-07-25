@@ -38,6 +38,10 @@ app.get('/register',(req,res)=>{
 app.get('/sitemap1',(req,res)=>{
 	res.sendFile(__dirname+'/public/sitemap2.xml');
 });
+app.get('/imagesitemap',(req,res)=>{
+	res.sendFile(__dirname+'/public/imagesitemap.xml');
+});
+
 app.get('/events',(req,res)=>{
 	res.sendFile(__dirname+'/public/event/event.html');
 });
