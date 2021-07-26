@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/linkedin', (req,res)=>{
-	res.sendFile(__dirname + '/public/index.html#LinkedIn');
+	res.send(__dirname + '/public/index.html#LinkedIn');
 });						
 app.get('/teams', (req,res)=>{
 	res.sendFile(__dirname + '/public/teams.html');
