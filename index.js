@@ -25,7 +25,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/linkedin', (req,res)=>{
-	res.redirect('https://www.linkedin.com/company/electrical-engineers-legation-mmmut');
+	res.redirect('https://www.linkedin.com/company/electrical-engineers-legation-mmmut','_blank');
 });
 app.get('/teams', (req,res)=>{
 	res.sendFile(__dirname + '/public/teams.html');
