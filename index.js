@@ -52,7 +52,7 @@ app.get('/events',(req,res)=>{
 app.get('/gallery',(req,res)=>{
 	res.sendFile(__dirname+'/public/gallery.html');
 app.get('/Core2Code',(req,res)=>{
-	res.redirect("https://forms.gle/ADyUVkvwjGskHMwp7");
+	res.redirect('https://forms.gle/ADyUVkvwjGskHMwp7');
 });
 app.get('/developers',(req,res)=>{
 	res.sendFile(__dirname+'/public/developers.html');
