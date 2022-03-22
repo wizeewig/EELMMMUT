@@ -52,8 +52,8 @@ app.get('/events',(req,res)=>{
 app.get('/gallery',(req,res)=>{
 	res.sendFile(__dirname+'/public/gallery.html');
 });
-app.get('/batch2025',(req,res)=>{
-	res.redirect('https://docs.google.com/forms/d/e/1FAIpQLSebimo1HznKBUdl05cC_oyYX9oRbxVdVpTmHx3hH-6c0afHCw/viewform?usp=sf_link');
+app.get('/tesla',(req,res)=>{
+	res.redirect('http://ec2-3-142-206-17.us-east-2.compute.amazonaws.com/');
 });
 app.get('/developers',(req,res)=>{
 	res.sendFile(__dirname+'/public/developers.html');
