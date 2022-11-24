@@ -58,6 +58,9 @@ app.get('/electropedia',(req,res)=>{
 app.get('/developers',(req,res)=>{
 	res.sendFile(__dirname+'/public/developers.html');
 });
+app.get('/siteadmin',(req,res)=>{
+	res.sendFile(__dirname+'/public/siteadmin.html');
+});
 
 app.post('/data',(req,res)=>{
 	console.log(req.body);
@@ -99,7 +102,7 @@ app.post('/data',(req,res)=>{
 });
 
 app.get('/mydevelopers',(req,res)=>{
-	res.send("<H1>Mihir Srivastava</H1><H1>Faheem Ahmed</H1><H1>Yash Kumar</H1>");
+	res.send("<H1>Mihir Srivastava</H1><H1>Faheem Ahmed</H1><H1>Yash Kumar</H1><H1>Ikchhit Kumar Pandey</H1>");
 });
 
 app.listen(port, ()=>{
