@@ -5,15 +5,37 @@
         <url>
         <loc>http://eelweb.herokuapp.com/developers</loc>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/FaheemAhmed.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/FaheemAhmed.jpg</image:loc>
 						<image:title>Faheem Ahmed</image:title>
         </image:image>  
 		<image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/Mihir.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/Mihir.jpg</image:loc>
 						<image:title>Mihir Srivastav</image:title>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/YashKumar.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/YashKumar.jpg</image:loc>
+						<image:title>Yash Kumar</image:title>
+        </image:image>
+        
+    </url>
+    <url>
+        <loc>http://eelweb.herokuapp.com/siteadmin</loc>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/IkchhitPandey.jpg</image:loc>
+                            <image:title>Ikchhit Kumar Pandey</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/FaheemAhmed.jpg</image:loc>
+						<image:title>Faheem Ahmed</image:title>
+        </image:image>  
+		<image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/Mihir.jpg</image:loc>
+						<image:title>Mihir Srivastav</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/YashKumar.jpg</image:loc>
 						<image:title>Yash Kumar</image:title>
         </image:image>
         
@@ -27,7 +49,7 @@
             <image:loc>http://eelweb.herokuapp.com./images/fa.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com./images/photos1/DevyaniSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com./images/batch2023/RatikaPuri.jpg</image:loc>
         </image:image>
         
     </url>
@@ -38,113 +60,100 @@
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/logo.png</image:loc>
         </image:image>
+
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/Mihir.jpg</image:loc>
-						<image:title>Mihir Srivastava</image:title>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/RatikaPuri.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/MahimaPankaj.jpg</image:loc>
+        </image:image>
+         <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/HarshBhoosan.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/Mayank.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/AnupriyaKushwaha.jpeg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/YashKumar.jpg</image:loc>
-						<image:title>Yash Kumar</image:title>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/IkchhitPandey.jpg</image:loc>
+                            <image:title>Ikchhit Kumar Pandey</image:title>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/samriddhi.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/VinayakPandey.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/RatikaPuri.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/ShivangiTiwari.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/FaheemAhmed.jpg</image:loc>
-						<image:title>Faheem Ahmed</image:title>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/AparnaDwivedi.jpg</image:loc>
+        </image:image>
+         <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/YashShukla.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/PrabhatPatel.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/HarshJha.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/PragatiSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/GauravYadav.jpg</image:loc>
+        </image:image>
+        
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/SmritiTiwari.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/AdityaJaisawal.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/UtkarshSrivastava.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/Abdulkalam.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/AkashGupta1.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/AjitKumarYadav.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/ShrutiSharma.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/AnkitPandey.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/NiharikaBharti.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/AnupamaRai.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/UtkarshTiwari.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/Ayushi.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/HrithikShankar.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/DevanshTyagi.png</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/KhushbooKushwaha1.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/HarshVardhanPandey.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/AditiVashishtha.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/MahiSaxena.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/SushantGupta.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/MayankJaiswal.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos/JeeveshRai.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/MeenakshiKatariya.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/AmitaSonker.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/MinakshiJaiswal.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/AnupriyaKushwaha.jpeg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/NikhilTripathi.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/AparnaDwivedi.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/PrinceYadav.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/Ashutosh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/PriyanshAgarwal.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/EkagraSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/SaurabhYadav.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/GauravYadav.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/ShivanshuSingh.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/HarshBhoosan.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/HarshJha.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/HarshTripathi.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/IkchhitPandey.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/MahimaPankaj.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/Naved.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/ShivangiTiwari.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/SmritiTiwari.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/UtkarshSrivastava.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/VinayakPandey.jpg</image:loc>
-        </image:image>
-        <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos2/YashShukla.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2025/YashRaj.jpg</image:loc>
         </image:image>
     </url>
     <url>
@@ -152,59 +161,118 @@
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/logo.png</image:loc>
         </image:image>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/Mihir.jpg</image:loc>
+						<image:title>Mihir Srivastava</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/Mayank.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/YashKumar.jpg</image:loc>
+						<image:title>Yash Kumar</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/samriddhi.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/RatikaPuri.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/FaheemAhmed.jpg</image:loc>
+						<image:title>Faheem Ahmed</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/PrabhatPatel.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/PragatiSingh.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/AdityaJaisawal.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/AkashGupta1.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/ShrutiSharma.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/NiharikaBharti.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/UtkarshTiwari.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/HrithikShankar.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/KhushbooKushwaha1.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/AditiVashishtha.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/SushantGupta.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/JeeveshRai.jpg</image:loc>
+        </image:image>
+
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/VatsalSir.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/SwatiSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/SwatiSingh.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/TatsatPandey.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/TatsatPandey.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/DevyaniSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/DevyaniSingh.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/DhruvAgarwal.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/DhruvAgarwal.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/NamrataSrivastava.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/NamrataSrivastava.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/ShlokVerman.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/ShlokVerman.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/DevanshKatiyar.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/DevanshKatiyar.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/YashPrakash.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/YashPrakash.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/MohammadSaif.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/MohammadSaif.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/PriyamSrivastav.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/PriyamSrivastav.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/AnshikaChaurasiya.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/AnshikaChaurasiya.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/PrashantSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/PrashantSingh.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/ShraddhaJaisawal.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/ShraddhaJaisawal.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/SumitYadav.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/SumitYadav.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/MdArif.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/MdArif.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/NishantSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/NishantSingh.jpg</image:loc>
         </image:image>
         <image:image>
-            <image:loc>http://eelweb.herokuapp.com/images/photos1/UtkarshSingh.jpg</image:loc>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2022/UtkarshSingh.jpg</image:loc>
         </image:image>
         <image:image>
             <image:loc>http://eelweb.herokuapp.com/images/batch2020/AbdurRehman.jpg</image:loc>
