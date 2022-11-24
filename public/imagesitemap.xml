@@ -18,6 +18,28 @@
         </image:image>
         
     </url>
+    <url>
+        <loc>http://eelweb.herokuapp.com/siteadmin</loc>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2024/IkchhitPandey.jpg</image:loc>
+                            <image:title>Ikchhit Kumar Pandey</image:title>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/FaheemAhmed.jpg</image:loc>
+						<image:title>Faheem Ahmed</image:title>
+        </image:image>  
+		<image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/Mihir.jpg</image:loc>
+						<image:title>Mihir Srivastav</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>http://eelweb.herokuapp.com/images/batch2023/YashKumar.jpg</image:loc>
+						<image:title>Yash Kumar</image:title>
+        </image:image>
+        
+    </url>
 	<url>
         <loc>http://eelweb.herokuapp.com</loc>
         <image:image>
