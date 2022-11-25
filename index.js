@@ -62,8 +62,9 @@ app.get('/siteadmin',(req,res)=>{
 	res.sendFile(__dirname+'/public/siteadmin.html');
 });
 app.all('*', (req, res) => {
-	res.status(404).send('<h1>404! Page not found</h1>');
+	res.status(404).sendFile(__dirname+'/public/404error.html');
   });
+
 
 app.post('/data',(req,res)=>{
 	console.log(req.body);
