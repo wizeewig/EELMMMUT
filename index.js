@@ -61,9 +61,12 @@ app.get('/developers',(req,res)=>{
 app.get('/siteadmin',(req,res)=>{
 	res.sendFile(__dirname+'/public/siteadmin.html');
 });
-app.all('*', (req, res) => {
-	res.status(404).sendFile(__dirname+'/public/404error.html');
-  });
+// app.all('*', (req, res) => {
+// 	res.status(404).sendFile(__dirname+'/public/404error.html');
+//   });
+app.get("/:universalURL", (req, res) => {
+	res.send("404 URL NOT FOUND");
+ });
 
 
 app.post('/data',(req,res)=>{
