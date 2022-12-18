@@ -61,11 +61,14 @@ app.get('/developers',(req,res)=>{
 app.get('/siteadmin',(req,res)=>{
 	res.sendFile(__dirname+'/public/siteadmin.html');
 });
+app.get('/mydevelopers',(req,res)=>{
+	res.send("<H1>Mihir Srivastava</H1><H1>Faheem Ahmed</H1><H1>Yash Kumar</H1><H1>Ikchhit Kumar Pandey</H1>");
+});
 // app.all('*', (req, res) => {
 // 	res.status(404).sendFile(__dirname+'/public/404error.html');
 //   });
 app.get("/:universalURL", (req, res) => {
-	res.send("404 URL NOT FOUND");
+	res.status(404).sendFile(__dirname+'/public/404error.html');
  });
 
 
@@ -108,9 +111,9 @@ app.post('/data',(req,res)=>{
 	res.sendFile(__dirname+'/public/congo.html')
 });
 
-app.get('/mydevelopers',(req,res)=>{
-	res.send("<H1>Mihir Srivastava</H1><H1>Faheem Ahmed</H1><H1>Yash Kumar</H1><H1>Ikchhit Kumar Pandey</H1>");
-});
+// app.get('/mydevelopers',(req,res)=>{
+// 	res.send("<H1>Mihir Srivastava</H1><H1>Faheem Ahmed</H1><H1>Yash Kumar</H1><H1>Ikchhit Kumar Pandey</H1>");
+// });
 
 app.listen(port, ()=>{
 	console.log(`Server is running at http://localhost:${port}`);
