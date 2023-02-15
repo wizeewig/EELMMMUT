@@ -55,6 +55,9 @@ app.get('/gallery',(req,res)=>{
 app.get('/electropedia',(req,res)=>{
 	res.redirect('https://docs.google.com/spreadsheets/d/107Wa3HqImuVG65lxnBCQmkzVlA251XCFK2SEPSyeIbg/edit?usp=drivesdk');
 });
+app.get('/climax',(req,res)=>{
+	res.sendFile(__dirname+'/public/climax.html');
+});
 app.get('/developers',(req,res)=>{
 	res.sendFile(__dirname+'/public/developers.html');
 });
