@@ -59,7 +59,7 @@ app.get('/climax',(req,res)=>{
 	res.sendFile(__dirname+'/public/climax.html');
 });
 app.get('/tesla',(req,res)=>{
-	res.reredirect('http://16.170.32.198/');
+	res.redirect('http://16.170.32.198/');
 });
 app.get('/developers',(req,res)=>{
 	res.sendFile(__dirname+'/public/developers.html');
